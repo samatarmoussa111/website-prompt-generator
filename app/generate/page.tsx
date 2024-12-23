@@ -1,10 +1,11 @@
-import { LandingPage } from "@/components/landing-page";
 import PromptGenerator from "@/components/prompt-generator";
 
-export default function Page() {
+const GeneratePage = () => {
   return (
     <main className="min-h-screen">
-      <LandingPage />
+      <PromptGenerator />
     </main>
   );
-}
+};
+
+export default GeneratePage;
